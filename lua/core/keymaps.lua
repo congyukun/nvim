@@ -10,8 +10,8 @@ keymap.set("i", "<leader>wq", "<ESC>:wq<CR>")
 keymap.set("i", "<leader>w", "<ESC>:w!<CR>")
 
 -- 跳到行首行尾
-keymap('i', '<C-h>', '<Esc>I', opt)
-keymap('i', '<C-l>', '<Esc>A', opt)
+keymap.set('i', '<C-h>', '<Esc>I', opt)
+keymap.set('i', '<C-l>', '<Esc>A', opt)
 
 -- ---------- 视觉模式 ---------- ---
 -- 单行或多行移动
