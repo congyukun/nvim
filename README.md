@@ -74,23 +74,25 @@ sudo swupd bundle-add neovim
 
 # nvim config
 
-``` bash
- 	source: https://github.com/congyukun/nvim
-  
+#### source: https://github.com/congyukun/nvim
+ 
   1. create folder
-	  mkdir -p ~/.config/nvim && cd  ~/.config/nvim &&  git clone https://github.com/congyukun/nvim.git 
-  
+  ``` bash 
+  mkdir -p ~/.config/nvim && cd  ~/.config/nvim &&  git clone https://github.com/congyukun/nvim.git 
+  ```
   2. Go to directory
-  	cd  ~/.config/nvim/lua/plugins
-  	
+  ``` bash 
+  cd  ~/.config/nvim/lua/plugins
+  ```	
   3.nvim edit plugins-setup.lua
-    nvim plugins-setup.lua
-    
+  ``` bash 
+  nvim plugins-setup.lua
+  ```
   4.install plugins
-  	<esc> :w 
-  
-```
-
+  ``` bash 
+  <esc> :w 
+  ```
+  5.wait a moment	
 ## key map
 
 ``` lua
